@@ -74,5 +74,5 @@ Once you have installed the dependencies and set up the project, you can run the
 ```
 python app.py
 ```
-Visit http://localhost:5000 in your web browser to access the application.
+Visit http://localhost:8080 in your web browser to access the application.
 
