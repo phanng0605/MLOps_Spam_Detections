@@ -26,13 +26,18 @@ You can clone this repository using the following command:
 ```bash
 git clone https://github.com/phanng0605/MLOps_Spam_Detections.git
 ```
+
 ### Create a Virtual Environment (Optional but recommended)
 It's a good practice to create a virtual environment for your project to manage dependencies. You can create one using Python's built-in venv module:
 ```
 python -m venv myenv
 ```
+or by conda 
+```
+conda create --name environment_name python=3.7
+```
 
-Activate the virtual environment:
+### Activate the virtual environment:
 
 On Windows:
 ```
@@ -44,13 +49,17 @@ On macOS and Linux:
 source myenv/bin/activate
 ```
 
-Install Dependencies
+Through Conda
+```
+conda activate environment_name
+```
+### Install Dependencies
 Navigate to the project directory and install the required packages using pip:
 ```
 pip install -r requirements.txt
 ```
 
-Project Overview
+### Project Overview
 This project includes the following files and directories:
 
 app.py: The main Python script that contains the Flask web application.
@@ -60,11 +69,10 @@ utils.py: Utility functions for data preprocessing and model inference.
 .gitignore: Git ignore file to specify files and directories to be ignored by Git.
 LICENSE: MIT License file for the project.
 
-Usage
+### Usage
 Once you have installed the dependencies and set up the project, you can run the web application locally:
 ```
 python app.py
 ```
-
 Visit http://localhost:5000 in your web browser to access the application.
 
