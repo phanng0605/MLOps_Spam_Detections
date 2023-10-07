@@ -1,5 +1,3 @@
-# MLOps_Spam_Detections
-
 # MLOps Spam Detection
 
 Welcome to the MLOps Spam Detection project repository. This project focuses on building an email spam classifier using machine learning techniques. By the end of this project, you'll have a trained model capable of classifying emails as either spam or not spam.
